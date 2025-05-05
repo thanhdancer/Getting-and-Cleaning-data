@@ -11,6 +11,7 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 The data used in this project is from the Human Activity Recognition Using Smartphones Dataset. The data description is available at the following link: [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 The dataset can be downloaded from the following link: [Dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
+The [CodeBook.md](CodeBook.md) file provides a detailed description of the variables, data, and transformations used in the analysis.
 ## How script work
 1. **Download and unzip the dataset**: The script checks if the dataset is already downloaded and unzipped. If not, it downloads the zip file and unzips it into a folder named "UCI HAR Dataset".
 2. **Load the necessary libraries**: The script loads the required libraries, including `dplyr` for data manipulation.
